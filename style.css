@@ -13,6 +13,7 @@ section {
 }
 
 .jumbotron {
+  height: 899px;
   background-attachment: fixed;
   background-size: cover;
   background-image: url('../img/project/alif-bg.jpg')
