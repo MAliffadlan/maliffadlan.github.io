@@ -1,11 +1,31 @@
+/* width */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg,blue, purple, red, orange);
+  border-radius: 10px;
+}
+
+
 
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
+  box-shadow: 2px 7px 20px;
 }
 
 #projects {
   background-color: #e2edff;
+  
 }
 
 section {
@@ -17,6 +37,61 @@ section {
   background-attachment: fixed;
   background-size: cover;
   background-image: url('../img/project/alif-bg.jpg')
+  
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-500%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background:  #ea4c89;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
 }
 
 .header {
@@ -27,18 +102,4 @@ section {
   background-color: #f1f1f1;
 }
 
-
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #eaeaea;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 8px;
-  background: #04AA6D;
-  width: 0%;
-}
 
