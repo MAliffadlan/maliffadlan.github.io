@@ -1,3 +1,4 @@
+
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
@@ -11,6 +12,12 @@ section {
   padding-top: 5rem;
 }
 
+.jumbotron {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('../img/project/alif-bg.jpg')
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -19,11 +26,12 @@ section {
   background-color: #f1f1f1;
 }
 
+
 /* The progress container (grey background) */
 .progress-container {
   width: 100%;
   height: 8px;
-  background: #ccc;
+  background: #eaeaea;
 }
 
 /* The progress bar (scroll indicator) */
@@ -32,3 +40,4 @@ section {
   background: #04AA6D;
   width: 0%;
 }
+
