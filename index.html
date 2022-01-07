@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" / <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link href='https://fonts.googleapis.com/css?family=Gluten' rel='stylesheet'>
 
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css" />
@@ -17,41 +18,44 @@
 </head>
 
 <body id="home">
+
   <!-- Navbar -->
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
 
-
-    <div class="container">
-      <a class="navbar-brand" href="#">M Alif fadlan</a>
-
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <body onload="startTime()">
+      <div class="container">
+        <a class="navbar-brand" href="#">M Alif fadlan <span class="typed-text"></span><span class="TypedCursor"></span>
+        </a>
 
 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
 
 
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div id="txt"></div>
+        </div>
       </div>
-    </div>
   </nav>
 
   <!-- Akhir Navbar  -->
@@ -89,15 +93,18 @@
     <a href="https://www.youtube.com/channel/UC9UYBc4xJleNiHlZ_5PhXGQ" class="youtube"><i class="fa fa-youtube"></i></a>
   </div>
   <section id="about">
+
     <div class="container">
       <div class="row text-center mb-3">
         <div class="col">
           <h2>About Me</h2>
           <p class="fs-6">My Introduction +</p>
         </div>
+
       </div>
 
       <div class="row">
+
         <div class="col justify-content-center fs-5 text-center">
           <p>
             <strong>Hi, I'm M Alif Fadlan. I am a Beginner Web Developer. I am 17 years old. I am High School Student. I
@@ -108,6 +115,7 @@
         </div>
       </div>
     </div>
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#e2edff" fill-opacity="1"
         d="M0,160L48,160C96,160,192,160,288,186.7C384,213,480,267,576,256C672,245,768,171,864,133.3C960,96,1056,96,1152,117.3C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -150,6 +158,7 @@
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
+
               <script type="text/javascript" src="vanilla-tilt.min.js"></script>
             </div>
           </div>
@@ -161,7 +170,9 @@
         d="M0,160L48,154.7C96,149,192,139,288,138.7C384,139,480,149,576,144C672,139,768,117,864,138.7C960,160,1056,224,1152,218.7C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
     </svg>
+
   </section>
+
   <!-- Akhir Projects -->
 
   <!-- contact -->
@@ -206,6 +217,7 @@
         d="M0,224L48,197.3C96,171,192,117,288,128C384,139,480,213,576,218.7C672,224,768,160,864,160C960,160,1056,224,1152,224C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
     </svg>
+
   </section>
   <!-- Akhir contact -->
 
@@ -248,6 +260,7 @@
     });
 
   </script>
+
 
 </body>
 
